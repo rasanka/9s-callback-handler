@@ -1,4 +1,4 @@
-package com.ninespokes.app.rest;
+package com.ns.app.rest;
 
 
 import java.util.Map;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.HttpClientErrorException;
 
-import com.ninespokes.app.dto.TokenResponseDto;
-import com.ninespokes.app.exception.UnauthorizedException;
-import com.ninespokes.app.service.AuthService;
-import com.ninespokes.app.service.ConnectionService;
+import com.ns.app.dto.TokenResponseDto;
+import com.ns.app.exception.UnauthorizedException;
+import com.ns.app.service.AuthService;
+import com.ns.app.service.ConnectionService;
 
 @RestController
 public class CallbackController {

@@ -1,4 +1,4 @@
-package com.ninespokes.app.service;
+package com.ns.app.service;
 
 import java.util.Base64;
 
@@ -16,14 +16,14 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
-import com.ninespokes.app.config.AppConfig;
-import com.ninespokes.app.dto.TokenIntrospectRequestDto;
-import com.ninespokes.app.dto.TokenIntrospectResponseDto;
-import com.ninespokes.app.dto.TokenRequestDto;
-import com.ninespokes.app.dto.TokenResponseDto;
-import com.ninespokes.app.enums.IntrospectTypeEnum;
-import com.ninespokes.app.enums.TokenTypeEnum;
-import com.ninespokes.app.exception.UnauthorizedException;
+import com.ns.app.config.AppConfig;
+import com.ns.app.dto.TokenIntrospectRequestDto;
+import com.ns.app.dto.TokenIntrospectResponseDto;
+import com.ns.app.dto.TokenRequestDto;
+import com.ns.app.dto.TokenResponseDto;
+import com.ns.app.enums.IntrospectTypeEnum;
+import com.ns.app.enums.TokenTypeEnum;
+import com.ns.app.exception.UnauthorizedException;
 
 @Service
 public class AuthServiceImpl implements AuthService {

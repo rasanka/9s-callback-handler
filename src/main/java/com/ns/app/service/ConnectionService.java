@@ -1,4 +1,4 @@
-package com.ninespokes.app.service;
+package com.ns.app.service;
 
 import java.util.Map;
 

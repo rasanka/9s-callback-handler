@@ -1,4 +1,4 @@
-package com.ninespokes.app.service;
+package com.ns.app.service;
 
 import java.util.Map;
 
@@ -18,8 +18,8 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import com.ninespokes.app.config.AppConfig;
-import com.ninespokes.app.dto.ConnectionsResponseWrapper;
+import com.ns.app.config.AppConfig;
+import com.ns.app.dto.ConnectionsResponseWrapper;
 
 @Service
 public class ConnectionServiceImpl implements ConnectionService {

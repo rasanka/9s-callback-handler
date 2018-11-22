@@ -1,8 +1,8 @@
-package com.ninespokes.app.service;
+package com.ns.app.service;
 
-import com.ninespokes.app.dto.TokenIntrospectResponseDto;
-import com.ninespokes.app.dto.TokenResponseDto;
-import com.ninespokes.app.exception.UnauthorizedException;
+import com.ns.app.dto.TokenIntrospectResponseDto;
+import com.ns.app.dto.TokenResponseDto;
+import com.ns.app.exception.UnauthorizedException;
 
 public interface AuthService {
 

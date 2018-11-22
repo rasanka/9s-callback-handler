@@ -1,4 +1,4 @@
-package com.ninespokes.app.exception;
+package com.ns.app.exception;
 
 public class UnauthorizedException extends Exception {
 

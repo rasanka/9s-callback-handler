@@ -1,4 +1,4 @@
-package com.ninespokes.app.dto;
+package com.ns.app.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

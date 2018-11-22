@@ -1,4 +1,4 @@
-package com.ninespokes.app.dto;
+package com.ns.app.dto;
 
 import java.util.Collection;
 

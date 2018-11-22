@@ -1,4 +1,4 @@
-package com.ninespokes.app.config;
+package com.ns.app.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;

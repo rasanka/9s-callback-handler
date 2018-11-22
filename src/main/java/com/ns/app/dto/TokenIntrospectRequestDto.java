@@ -1,4 +1,4 @@
-package com.ninespokes.app.dto;
+package com.ns.app.dto;
 
 public class TokenIntrospectRequestDto {
     private String authorization;

@@ -1,4 +1,4 @@
-package com.ninespokes.app.enums;
+package com.ns.app.enums;
 
 import java.util.HashMap;
 import java.util.Map;
